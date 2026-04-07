@@ -2,7 +2,7 @@
 
 # Assets Plugin for Rolldown
 
-**A Rolldown plugin that emits static assets (files and directories) to the output directory during the build process.**
+_A Rolldown plugin that emits static assets (files and directories) to the output directory during the build process._
 
 ![Preview](./docs/preview.avif)
 

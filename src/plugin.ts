@@ -5,6 +5,16 @@ import { Plugin, PluginContext } from "rolldown";
 import { handleDirectory, handleFile } from "./handlers.js";
 import { Options } from "./types.js";
 
+/**
+ * A Rollup plugin that emits assets
+ *
+ * @param options - An `Object` to configure {@link Options} for the plugin's behavior.
+ * @returns A Rollup plugin that emits assets.
+ *
+ * @since 1.0.0
+ * @author Simon Kovtyk
+ * @category Plugin
+ */
 function assetsPlugin(options: Options): Plugin {
   const cwd = process.cwd();
 

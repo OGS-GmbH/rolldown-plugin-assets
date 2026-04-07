@@ -11,6 +11,8 @@
     "rolldown-plugin",
     "static-assets"
   ],
+  "homepage": "https://ogs-gmbh.github.io/rolldown-plugin-assets",
+  "bugs": "https://github.com/OGS-GmbH/rolldown-plugin-assets/issues",
   "license": "MIT",
   "author": "OGS GmbH",
   "contributors": [
@@ -20,9 +22,15 @@
       "url": "https://simonkov.dev"
     }
   ],
+  "repository": "https://github.com/OGS-GmbH/rolldown-plugin-assets",
+  "files": [
+    "./dist/main",
+    "CHANGELOG.md"
+  ],
   "type": "module",
-  "publishConfig": {
-    "directory": "dist/main"
+  "exports": {
+    "types": "./dist/main/public-api.d.ts",
+    "default": "./dist/main/public-api.js"
   },
   "scripts": {
     "ci:build:main:production": "tsdown",
@@ -44,7 +52,6 @@
     "@commitlint/config-conventional": "^20.5.0",
     "@commitlint/prompt-cli": "^20.5.0",
     "@ogs-gmbh/oxlint-presets": "^1.0.5",
-    "@ogs-gmbh/rolldown-plugin-package-json": "^1.1.0",
     "@ogs-gmbh/vitepress-plugin-sidebar": "^1.0.3",
     "@ogs-gmbh/vitepress-theme": "^1.1.0",
     "@types/node": "^25.5.0",

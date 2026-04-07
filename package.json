@@ -1,6 +1,6 @@
 {
   "name": "@ogs-gmbh/rolldown-plugin-assets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Rolldown plugin that emits static assets (files and directories) to the output directory during the build process.",
   "keywords": [
     "assets",

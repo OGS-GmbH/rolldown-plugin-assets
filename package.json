@@ -1,7 +1,7 @@
 {
-  "name": "@ogs-gmbh/_ts-template",
+  "name": "@ogs-gmbh/rolldown-plugin-assets",
   "version": "1.0.0",
-  "description": "A TypeScript project template with a ready-to-use structure.",
+  "description": "",
   "keywords": [
     "boilerplate"
   ],
@@ -31,6 +31,9 @@
     "vitepress": "bash ./.vitepress/scripts/pre-vitepress.sh && vitepress dev .vitepress",
     "vitepress:preview": "vitepress preview .vitepress"
   },
+  "dependencies": {
+    "rolldown": "1.0.0-rc.13"
+  },
   "devDependencies": {
     "@commitlint/cli": "^20.5.0",
     "@commitlint/config-conventional": "^20.5.0",
@@ -39,6 +42,7 @@
     "@ogs-gmbh/rolldown-plugin-package-json": "^1.1.0",
     "@ogs-gmbh/vitepress-plugin-sidebar": "^1.0.3",
     "@ogs-gmbh/vitepress-theme": "^1.1.0",
+    "@types/node": "^25.5.0",
     "@vitest/coverage-v8": "^4.1.2",
     "husky": "^9.1.7",
     "jsdom": "^29.0.1",
